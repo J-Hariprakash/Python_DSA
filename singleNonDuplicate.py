@@ -17,6 +17,9 @@ for i in range(0,size):
 result = singleNonDuplicate(nums)
 print(result)
 
+
+
+
 # In a sorted array where every element appears twice except one, pairs start at even indexes.
 # If nums[mid] == nums[mid + 1], it's a valid pair → skip both with mid + 2.
 # If not, the unique element is at or before mid → shrink search space to the left.

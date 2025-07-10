@@ -15,6 +15,11 @@ for i in range(0,size):
 result = min_Rotated(nums)
 print(result)
 
+
+
+
+
+
 # In a rotated sorted array with no duplicates, the minimum element is the only point where order breaks.
 # Use binary search: if nums[mid] > nums[right], min must be in right half → left = mid + 1.
 # Else, the min is in left half (including mid) → right = mid.

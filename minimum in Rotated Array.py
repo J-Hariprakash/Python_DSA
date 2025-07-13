@@ -12,7 +12,7 @@ nums = []
 for i in range(0,size):
     elmt = int(input("Enter elememt in an array: \n"))
     nums.append(elmt)
-result = min_Rotated(nums)
+result = min_Rotated(nums)  
 print(result)
 
 

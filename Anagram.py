@@ -8,6 +8,7 @@ def anagram(s,t):
 Str1 = input("enter a  String one :\n")
 Str2 = input("enter a  String two :\n")
 result = anagram(Str1,Str2)
+
 print(result)   
 
 

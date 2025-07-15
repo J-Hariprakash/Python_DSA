@@ -3,6 +3,7 @@ def rotateString( s, goal):
           return True 
         else:
           return False
+          
 Str1 = input("enter a  String one :\n")
 Str2 = input("enter a  String two :\n")
 result = rotateString(Str1,Str2)

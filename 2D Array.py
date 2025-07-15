@@ -1,4 +1,5 @@
 row = int(input("Enter number of rows required:\n"))
+
 matrix = []
 for i in range(row):
     rows = []

@@ -6,10 +6,7 @@ def Reversed_array(arr):
             return sortArr[i]
     else:
         return -1       
-size = int(input("Enter Required Size for an array: \n"))
-arr = []
-for i in range(size):
-    elmts = int(input("Enter elements required: \n"))
-    arr.append(elmts)     
+
+arr = list(map(int,input("Enter a elements required:\n").split(' ')))    
 result = Reversed_array(arr)
 print(result)

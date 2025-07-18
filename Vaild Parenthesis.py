@@ -10,6 +10,8 @@ def Valid(s):
                    if paranthesis[ch]!=top:
                        return False
                 else:
+
+                    
                     return False 
         return not stack 
 s = input("Enter a paranthesis: \n")
